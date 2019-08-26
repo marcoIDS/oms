@@ -1,0 +1,9 @@
+
+
+<div id="map" class="map"></div>
+<button (click)="setCenter()">SET CENTER</button>
+<form [formGroup]="searchFormGroup">
+    <input formControlName="query">
+    <button (click)="search()"></button>
+</form>
+<input id="query" type="text">
